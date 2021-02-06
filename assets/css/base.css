@@ -1,0 +1,39 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url("../img/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container{
+    width: 992px;
+    margin: auto;
+}
+header{
+    height: 80px;
+    background-color: #072d5aab;
+}
+.logo{
+    width: 90px;
+    float: left;
+    background-color: #fff;
+}
+.logo > img{
+    padding: 10px
+}
+nav{
+    width: 90%;
+    height: 80px;
+    float:right;
+    text-align: center;
+}
+nav > ul{
+    height: 60px;
+    margin-top: 30px;
+
+}
+nav > ul > li{
+    color:#fff;
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
