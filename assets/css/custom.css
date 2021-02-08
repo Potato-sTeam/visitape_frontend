@@ -1,13 +1,13 @@
 @import url('./jquery.mCustomScrollbar.css');
 html,
 body {
-  height: 100%;
+    height: 100%;
 }
 body {
- background-image: url(../img/fondo1.jpg);
- background-position: center;
- background-size: cover;
- background-attachment: fixed;
+    background-image: url(../img/fondo1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .dashboard-content{
     width: 100%;
@@ -28,7 +28,7 @@ body {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    transition: background-color .3s, 
+    transition: background-color .3s,
     opacity .5s, visibility .5s;
     opacity: 0;
     visibility: hidden;
@@ -60,7 +60,7 @@ header, footer{
 }
 .nav-principal .nav-second{
     margin-right: 0 !important;
-    
+
 }
 .nav-principal .nav-second li a{
     color: #fff !important;
@@ -93,18 +93,18 @@ header, footer{
     animation-duration: 0.5s;
     transition: 0.5s;
 
-    
+
 }
 .fixed{
-        position: fixed;
-        z-index: 500;
-        top: 0;
-        background-color: #FF9800;
-        animation-name: stickySlideDown;
-        padding: 0;
-        transition: none;
-        box-shadow: 0 3px 10px 0 rgba(0,0,0,.1);
-    }
+    position: fixed;
+    z-index: 500;
+    top: 0;
+    background-color: #FF9800;
+    animation-name: stickySlideDown;
+    padding: 0;
+    transition: none;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.1);
+}
 @keyframes stickySlideDown {
     0% {
         opacity: 0.7;
@@ -151,7 +151,7 @@ header, footer{
 .Form-Search input::placeholder{
     font-weight: 700;
     text-align: center;
-    
+
 }
 .Form-Search button{
     background-color: #86B543;
@@ -195,7 +195,7 @@ header, footer{
     right: 10px;
     padding: 10px;
     border-radius: 4px;
-    background-color: rgba(6, 102, 86, 0.767);    
+    background-color: rgba(6, 102, 86, 0.767);
 }
 .Description a{
     text-transform: uppercase;
@@ -377,7 +377,7 @@ header, footer{
 .js01-a-2C{
     text-transform: uppercase;
     font-size: 12px;
-} 
+}
 .star_checked{
     color: orange;
 }
@@ -414,7 +414,7 @@ header, footer{
     display: inline-block;
     margin-right: 10px;
     text-align: center;
-    
+
 }
 #footer .wrap-colum ul .Fluid-Social a{
     width: 40px;
