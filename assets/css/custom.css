@@ -438,15 +438,13 @@ header, footer{
 }
 #footer .wrap-colum .form-footer input::placeholder{
     color: #e4e0de;
-   font-style: oblique;
-   font-weight: 700;
+    font-style: oblique;
+    font-weight: 700;
 }
 #footer .wrap-colum .form-footer button{
     background-color: orange !important;
     border-radius:0px 4px 4px 0px;
 }
-
-
 
 
 /* festividades */
@@ -495,3 +493,34 @@ header, footer{
     border-color: #0d488e!important;
 }
 /* endfestividades */
+
+/* tuexperiencia */
+h3
+{
+    color: white;
+    text-align: center;
+}
+h4
+{
+    margin-top: 52px;
+    color: white;
+    text-align: center;
+}
+.coment input{
+    height: 200px;
+    border-radius: 5px;
+}
+#enviar{
+    margin-top: 10px;
+}
+#env{
+    margin-top: 10px;
+}
+.sug input{
+    height: 90px;
+    border-radius: 5px;
+}
+footer{
+    margin-top: 10px;
+}
+/* tuexperiencia */
