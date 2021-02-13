@@ -445,3 +445,31 @@ header, footer{
     background-color: orange !important;
     border-radius:0px 4px 4px 0px;
 }
+h3
+{
+    color: white;
+    text-align: center;
+}
+h4
+{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+.coment input{
+    height: 200px;
+    border-radius: 5px;
+}
+#enviar{
+    margin-top: 10px;
+}
+#env{
+    margin-top: 10px;
+}
+.sug input{
+    height: 90px;
+    border-radius: 5px;
+}
+footer{
+    margin-top: 10px;
+}
