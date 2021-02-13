@@ -34,7 +34,7 @@
                     <div class="collapse navbar-collapse nav-principal" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto text-md-left text-left nav-second">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="cercadeti.html"><i class="fas fa-street-view"></i> Cerca de ti</a>
+                                <a class="nav-link" aria-current="page" href="cercadeti.html"><i class="fas fa-street-view"></i> Cerca de ti</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="festividades.html"><i class="fas fa-hat-cowboy"></i> Festividades</a>
@@ -43,7 +43,7 @@
                                 <a class="nav-link" href="tuexperiencia.html"><i class="fas fa-hiking"></i> Tu Experiencia</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contacto.html"><i class="fas fa-id-badge"></i> Contacto</a>
+                                <a class="nav-link active" href="contacto.html"><i class="fas fa-id-badge"></i> Contacto</a>
                             </li>
                             <!--<li class="nav-item">
                               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -55,9 +55,70 @@
         </header>
         <!-------------Maintop-------------->
         <section class="content-wrap">
+            <div class="container-fluid breadcrumb-ini">
+               <h4>Contáctanos</h4>
+               <div class="row">
+                   <div class="col-md-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Contáctanos</li>
+                        </ol>
+                    </nav>
+                   </div>  
+               </div> 
+            </div>
             <div class="container-fluid wrap_padding" style="background-color: #eee;">
                 <div class="container">
                     <div class="row">
+                        <div class="col-lg-6">
+                            <h4 class="border-left">¿Quieres más información?<small> Escríbenos</small></h4>
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Nombres: </label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Apellidos: </label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email: </label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Teléfono: </label>
+                                    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Lugar: </label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Mensaje *: </label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <small id="emailHelp" class="form-text text-muted">Por favor escribe tu mensaje.</small>
+                                </div>
+                                <button type="submit" class="btn btn-outline-info btn-block">Enviar</button>
+                              </form>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="content-main-1">
+                                <h4 class="text-left">¿Quieres se Nuestro Socio?<small> Mira el video</small></h4>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                                </div>
+                                <p class="text-left">
+                                    Lorem Ipsum es simplemente el texto de relleno de las imprentas y 
+                                    archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar 
+                                    de las industrias desde el año 1500, cuando un impresor (N. del T. 
+                                    persona que se dedica a la imprenta) desconocido usó una galería de 
+                                    textos y los mezcló de tal manera que logró hacer un libro de textos 
+                                    especimen.
+                                </p>
+                                <button class="btb btn-block btn-lg btn-info">Asociarse</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
