@@ -21,7 +21,7 @@
     'use strict';
 
     var defaults = {
-        topOffset: 400, //px - offset to switch of fixed position
+        topOffset: 100, //px - offset to switch of fixed position
         hideDuration: 300, //ms
         stickyClass: 'fixed'
     };
