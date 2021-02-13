@@ -50,7 +50,33 @@ header, footer{
     background-color: #093f81c2;
     color:#fff;
 }
-
+.active{
+    color: orange;
+}
+.breadcrumb-ini{
+    background-image: url(/img/background-top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.breadcrumb-ini h4{
+    padding: 20px;
+    font-weight: 900;
+    font-size:2.1em !important;
+}
+.breadcrumb-ini .breadcrumb{
+    background-color: transparent !important;
+    text-align: center;
+}
+.active::after{
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 2px;
+    bottom: 0;
+    left: 10%;
+    background-color: orange;
+    }
 .logo{
     width: 90px;
     float: left;
