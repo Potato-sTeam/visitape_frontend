@@ -445,3 +445,53 @@ header, footer{
     background-color: orange !important;
     border-radius:0px 4px 4px 0px;
 }
+
+
+
+
+/* festividades */
+.fc-event-img{
+    text-align: center
+}
+
+.fc-prev-button,
+.fc-next-button,
+.fc-today-button,
+.fc-today-button:disabled,
+.fc-dayGridMonth-button,
+.fc-listMonth-button{
+    background-color: #072d5a;
+    border-color: #072d5a;
+}
+
+.fc-prev-button:hover,
+.fc-next-button:hover,
+.fc-today-button:hover,
+.fc-today-button:hover,
+.fc-dayGridMonth-button:hover,
+.fc-listMonth-button:hover{
+    background-color: #072d5a;
+    border-color: #072d5a;
+}
+
+
+.fc-prev-button:active,
+.fc-next-button:active,
+.fc-today-button:active,
+.fc-today-button:active,
+.fc-dayGridMonth-button:active,
+.fc-listMonth-button:active{
+    background-color: #0d488e!important;
+    border-color: #0d488e!important;
+}
+.fc-toolbar-chunk>.btn-group .active,
+.fc-prev-button:focus,
+.fc-next-button:focus,
+.fc-today-button:focus,
+.fc-today-button:focus,
+.fc-dayGridMonth-button:focus,
+.fc-listMonth-button:focus{
+    background-color: #0d488e!important;
+    border-color: #0d488e!important;
+}
+/* endfestividades */
