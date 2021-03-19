@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VisitaPe</title>
     <!--Posicionamiento Seo-->
-    <meta name="description" content="Turismo, Gastronomía, lugares, Viajes, Eventos, Fiestas Patronales, 
+    <meta name="description" content="Turismo, Gastronomía, lugares, Viajes, Eventos, Fiestas Patronales,
     Cultura, Paisajes, Mochileros, Hoteles"/>
     <meta name="robots" content="index, follow, noimageindex, noarchive"/>
     <meta name="googlebot" content="index, follow, noimageindex, noarchive, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
@@ -168,7 +168,13 @@
             weekNumbers: true,
             locale: 'es',
             dayMaxEvents: false, // allow "more" link when too many events
-            events: eventos,
+            events: {
+              url: 'http://api-visita.xpertik.com/festividades2.php',
+              failure: function() {
+                console.log("aa");
+                document.getElementById('script-warning').style.display = 'block'
+              },
+            },
             eventColor: '#072d5a',
             eventContent: function(arg) {
                 let arrayOfDomNodes = []
