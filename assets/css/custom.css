@@ -490,7 +490,21 @@ header, footer{
     background-color: #072d5a;
     border-color: #072d5a;
 }
-
+.fc-event-title {
+    color: #072d5a;
+    text-align: center;
+}
+.fc .fc-daygrid-day-top{
+    background-color: #072d5a;
+    color: #fff;
+}
+.fc-event-img img{
+    border-radius: 5px;
+    border:1px solid #072d5a ;
+}
+.fc-direction-ltr .fc-daygrid-week-number{
+    background-color: orange !important;
+}
 .fc-prev-button:hover,
 .fc-next-button:hover,
 .fc-today-button:hover,

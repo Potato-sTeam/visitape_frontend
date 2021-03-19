@@ -101,7 +101,7 @@
                 document.getElementById('script-warning').style.display = 'block'
               },
             },
-            eventColor: '#072d5a',
+            eventColor: '#fff',
             eventContent: function(arg) {
                 let arrayOfDomNodes = []
                 // title event
