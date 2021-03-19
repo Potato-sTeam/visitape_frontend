@@ -36,7 +36,7 @@ var padreslider = $("#slider");
           <img src='" + image + "' class='d-block w-100' alt='" + titulo +"'>\
           <div class='Description'>\
               <a href='#'>\
-                " + titulo +"\
+                " + titulo + "\
               </a>\
               <p>\
                 " + description + "\
@@ -107,12 +107,12 @@ var padreslider = $("#slider");
         return cadena;
       }
 
-      function addChildcomen(nombre, lugar, descripcion,valoracion,fecha) {
+      function addChildcomen(imagen, nombre, lugar, descripcion,valoracion,fecha) {
         var txtestrella = generaestrella(valoracion);
         var child = 
         "<li class='js01-a'>\
             <div class='js01-a-1'>\
-                <i class='fas fa-user'></i>\
+                <img class='rounded-circle' width='80px' height='80px' src='" + imagen + "'>\
             </div>\
             <div class='js01-a-2'>\
                 <div class='js01-a-2A name'>\
@@ -138,7 +138,8 @@ var padreslider = $("#slider");
         .then(function(response){
           var data = JSON.parse(response);
           for(var i = 0; data["objects"].length > i; i++) {
-            addChildcomen(data["objects"][i]["name"], 
+            addChildcomen(data["objects"][i]["img"],
+                data["objects"][i]["name"], 
                 data["objects"][i]["lugar"],
                 data["objects"][i]["description"],
                 data["objects"][i]["valoracion"],

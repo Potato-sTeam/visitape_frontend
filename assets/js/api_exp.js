@@ -43,12 +43,12 @@ var padrecomen = $("#comentario");
         return cadena;
       }
 
-      function addChildcomen(nombre, lugar, descripcion,valoracion,fecha) {
+      function addChildcomen(imagen, nombre, lugar, descripcion,valoracion,fecha) {
         var txtestrella = generaestrella(valoracion);
         var child = 
         "<li class='js01-a'>\
             <div class='js01-a-1'>\
-                <i class='fas fa-user'></i>\
+                <img class='rounded-circle' width='80px' height='80px' src='" + imagen + "'>\
             </div>\
             <div class='js01-a-2'>\
                 <div class='js01-a-2A name'>\
@@ -74,7 +74,8 @@ var padrecomen = $("#comentario");
         .then(function(response){
           var data = JSON.parse(response);
           for(var i = 0; data["objects"].length > i; i++) {
-            addChildcomen(data["objects"][i]["name"], 
+            addChildcomen(data["objects"][i]["img"],
+                data["objects"][i]["name"], 
                 data["objects"][i]["lugar"],
                 data["objects"][i]["description"],
                 data["objects"][i]["valoracion"],
