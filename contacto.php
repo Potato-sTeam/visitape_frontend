@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>VisitaPe</title>
         <!--Posicionamiento Seo-->
-        <meta name="description" content="Turismo, Gastronomía, lugares, Viajes, Eventos, Fiestas Patronales, 
+        <meta name="description" content="Turismo, Gastronomía, lugares, Viajes, Eventos, Fiestas Patronales,
         Cultura, Paisajes, Mochileros, Hoteles"/>
         <meta name="robots" content="index, follow, noimageindex, noarchive"/>
         <meta name="googlebot" content="index, follow, noimageindex, noarchive, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
@@ -38,7 +38,7 @@
             <header class="menu" id="fixed">
                 <div class="container">
                     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="index.php">
                             <img src="./assets/img/logo-visita.png" alt="" height="50" />
                         </a>
                         <button
@@ -59,22 +59,22 @@
                         >
                             <ul class="navbar-nav mx-auto text-md-left text-left nav-second">
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="cercadeti.html"
+                                    <a class="nav-link" aria-current="page" href="cercadeti.php"
                                         ><i class="fas fa-street-view"></i> Cerca de ti</a
                                     >
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="festividades.html"
+                                    <a class="nav-link" href="festividades.php"
                                         ><i class="fas fa-hat-cowboy"></i> Festividades</a
                                     >
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="tuexperiencia.html"
+                                    <a class="nav-link" href="tuexperiencia.php"
                                         ><i class="fas fa-hiking"></i> Tu Experiencia</a
                                     >
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="contacto.html"
+                                    <a class="nav-link active" href="contacto.php"
                                         ><i class="fas fa-id-badge"></i> Contacto</a
                                     >
                                 </li>

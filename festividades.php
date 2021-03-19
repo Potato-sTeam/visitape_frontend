@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VisitaPe</title>
     <!--Posicionamiento Seo-->
-    <meta name="description" content="Turismo, Gastronomía, lugares, Viajes, Eventos, Fiestas Patronales, 
+    <meta name="description" content="Turismo, Gastronomía, lugares, Viajes, Eventos, Fiestas Patronales,
     Cultura, Paisajes, Mochileros, Hoteles"/>
     <meta name="robots" content="index, follow, noimageindex, noarchive"/>
     <meta name="googlebot" content="index, follow, noimageindex, noarchive, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/custom.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link href='./assets/css/fullcalendar/main.css' rel='stylesheet' />
 </head>
 <body>
     <a class="arrow-up" id="back_top">
@@ -30,7 +31,7 @@
         <header class="menu" id="fixed">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-transparent" >
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.php">
                         <img src="./assets/img/logo-visita.png" alt="" height="50">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,16 +41,16 @@
                     <div class="collapse navbar-collapse nav-principal" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto text-md-left text-left nav-second">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="cercadeti.html"><i class="fas fa-street-view"></i> Cerca de ti</a>
+                                <a class="nav-link" aria-current="page" href="cercadeti.php"><i class="fas fa-street-view"></i> Cerca de ti</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="festividades.html"><i class="fas fa-hat-cowboy"></i> Festividades</a>
+                                <a class="nav-link active" href="festividades.php"><i class="fas fa-hat-cowboy"></i> Festividades</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="tuexperiencia.html"><i class="fas fa-hiking"></i> Tu Experiencia</a>
+                                <a class="nav-link" href="tuexperiencia.php"><i class="fas fa-hiking"></i> Tu Experiencia</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contacto.html"><i class="fas fa-id-badge"></i> Contacto</a>
+                                <a class="nav-link" href="contacto.php"><i class="fas fa-id-badge"></i> Contacto</a>
                             </li>
                             <!--<li class="nav-item">
                               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -62,34 +63,25 @@
         <!-------------Maintop-------------->
         <section class="content-wrap">
             <div class="container-fluid breadcrumb-ini">
-                <h4>Cerca de ti</h4>
+                <h4>Festividades</h4>
                 <div class="row">
                     <div class="col-md-12">
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb justify-content-center">
                                 <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">
-                                    Cerca de ti
+                                    Festividades
                                 </li>
                             </ol>
                         </nav>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid" style="background-color: #eee;">
-                <div class="row">
-                    <div class="col">
-                        
-                        <div class="z-depth-1-half map-container" style="height: 500px">
-                            <form method="POST" action="#">
-                                <input
-                                id="pac-input"
-                                class="controls"
-                                type="text"
-                                placeholder="Buscar"
-                            />
-                            </form>
-                            <div id="map"></div>
+            <div class="container-fluid wrap_padding" style="background-color: #eee;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col bg-white pt-3 rounded-sm">
+                            <div id='calendario'></div>
                         </div>
                     </div>
                 </div>
@@ -177,11 +169,73 @@
     <script tipe="text/javascript" src="assets/js/scriptfunction.js"></script>
     <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>-->
     <script>window.jQuery || document.write('<script src="./assets/js/query.slim.min.js"><\/script>')</script><script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="./assets/js/cercadeti.js"></script>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOgbV_v4E3iqSK2Js0Y4JTD9lxBaAbqt0&callback=initMap&libraries=places&v=weekly"
-      async
-    ></script>
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src='./assets/js/fullcalendar/main.js'></script>
+    <script src='./assets/js/fullcalendar/locales/es.js'></script>
+    <script>
+        var eventos=[
+            {
+                "title": "Festividad 1",
+                "start": "2021-02-15",
+                "url": "#",
+                "img": "./assets/img/lugares/lugar1.png"
+            },
+            {
+                "title": "Festividad 2",
+                "start": "2021-02-15",
+                "url": "#",
+                "img": "./assets/img/lugares/lugar2.png"
+            },
+            {
+                "title": "Festividad 3",
+                "start": "2021-02-25",
+                "url": "#",
+                "img": "./assets/img/lugares/lugar3.png"
+            },
+        ]
+        var calendario = document.getElementById('calendario');
+        var calendario = new FullCalendar.Calendar(calendario, {
+            timeZone: 'America/Lima',
+            themeSystem: 'bootstrap',
+            headerToolbar: {
+              left: 'prev,next today',
+              center: 'title',
+              right: 'dayGridMonth,listMonth'
+            },
+            weekNumbers: true,
+            locale: 'es',
+            dayMaxEvents: false, // allow "more" link when too many events
+            events: {
+              url: 'http://api-visita.xpertik.com/festividades2.php',
+              failure: function() {
+                console.log("aa");
+                document.getElementById('script-warning').style.display = 'block'
+              },
+            },
+            eventColor: '#072d5a',
+            eventContent: function(arg) {
+                let arrayOfDomNodes = []
+                // title event
+                let titleEvent = document.createElement('div')
+                if(arg.event._def.title) {
+                  titleEvent.innerHTML = arg.event._def.title
+                  titleEvent.classList = "fc-event-title fc-sticky"
+                }
+
+                // image event
+                let imgEventWrap = document.createElement('div')
+                if(arg.event.extendedProps.img) {
+                  let imgEvent = '<img src="'+arg.event.extendedProps.img+'" width="100px">'
+                  imgEventWrap.classList = "fc-event-img"
+                  imgEventWrap.innerHTML = imgEvent;
+                }
+
+                arrayOfDomNodes = [ titleEvent,imgEventWrap ]
+
+                return { domNodes: arrayOfDomNodes }
+            },
+        });
+        calendario.render();
+    </script>
 </body>
 </html>

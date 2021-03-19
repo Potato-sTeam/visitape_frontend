@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>VisitaPe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisitaPe </title>
     <!--Posicionamiento Seo-->
-    <meta name="description" content="Turismo, Gastronomía, lugares, Viajes, Eventos, Fiestas Patronales, 
+    <meta name="description" content="Turismo, Gastronomía, lugares, Viajes, Eventos, Fiestas Patronales,
     Cultura, Paisajes, Mochileros, Hoteles"/>
     <meta name="robots" content="index, follow, noimageindex, noarchive"/>
     <meta name="googlebot" content="index, follow, noimageindex, noarchive, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
@@ -30,7 +30,7 @@
         <header class="menu" id="fixed">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-transparent" >
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.php">
                         <img src="./assets/img/logo-visita.png" alt="" height="50">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,16 +40,16 @@
                     <div class="collapse navbar-collapse nav-principal" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto text-md-left text-left nav-second">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="cercadeti.html"><i class="fas fa-street-view"></i> Cerca de ti</a>
+                                <a class="nav-link active" aria-current="page" href="cercadeti.php"><i class="fas fa-street-view"></i> Cerca de ti</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="festividades.html"><i class="fas fa-hat-cowboy"></i> Festividades</a>
+                                <a class="nav-link" href="festividades.php"><i class="fas fa-hat-cowboy"></i> Festividades</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="tuexperiencia.html"><i class="fas fa-hiking"></i> Tu Experiencia</a>
+                                <a class="nav-link" href="tuexperiencia.php"><i class="fas fa-hiking"></i> Tu Experiencia</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contacto.html"><i class="fas fa-id-badge"></i> Contacto</a>
+                                <a class="nav-link" href="contacto.php"><i class="fas fa-id-badge"></i> Contacto</a>
                             </li>
                             <!--<li class="nav-item">
                               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -59,26 +59,160 @@
                 </nav>
             </div>
         </header>
+        <!-------------Maintop-------------->
         <section class="content-wrap">
-            <div class="container-fluid breadcrumb-ini" id="text-h">
-                <h4>Tu Experiencia</h4>
-                <div class="row">
-                    <div class="col-md-12">
-                     <nav aria-label="breadcrumb">
-                         <ol class="breadcrumb justify-content-center">
-                             <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-                             <li class="breadcrumb-item active" aria-current="page">Tu Experiencia</li>
-                         </ol>
-                     </nav>
-                    </div>  
-                </div> 
+            <div class="container">
+                <form class="margin-gral1  margin-gral2 Form-Search" method="POST" action="#">
+                    <div class="input-group">
+                        <input type="search" id="form1" class="form-control" placeholder="¿Dónde Estas? | ¿A Dónde Irás?" />
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-search"></i> Buscar
+                        </button>
+                    </div>
+                </form>
+                <div class="row margin-gral2">
+                    <div class="col-lg-6">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                    <!-------------Slider-------------->
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/hyo-1.png" class="d-block w-100" alt="Huancayo">
+                                    <div class="Description">
+                                        <a href="#">
+                                            <strong>1</strong>  Cascadas de Yauyos
+                                        </a>
+                                        <p>
+                                            text of the printing and typesetting industry. Lorem Ipsum
+                                            text of the printing and typesetting industry. Lorem Ipsum
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/hyo-2.png" class="d-block w-100" alt="Huancayo">
+                                    <div class="Description">
+                                        <a href="#">
+                                            <strong>2</strong>  Laguna de Yauyos
+                                        </a>
+                                        <p>
+                                            text of the printing and typesetting industry. Lorem Ipsum
+                                            text of the printing and typesetting industry. Lorem Ipsum
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/hyo-3.png" class="d-block w-100" alt="...">
+                                    <div class="Description">
+                                        <a href="#">
+                                            <strong>3</strong>  Parque Constitución
+                                        </a>
+                                        <p>
+                                            text of the printing and typesetting industry. Lorem Ipsum
+                                            text of the printing and typesetting industry. Lorem Ipsum
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <span class="fa fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="container-fluid wrap_padding" style="background-color: #eee;" id="contenido-exp">
-                <!-------------Main Content 2-------------->
+            <!-------------Main Content 1-------------->
+            <div class="container-fluid wrap_padding" style="background-color: #eee;">
                 <div class="container">
+                    <div class="row main1">
+                        <div class="col-xs-12 col-md-6 col-lg-3 margin-gral1">
+                            <div class="content-main-1">
+                                <a href="#"></a>
+                                <span class="fas fa-suitcase-rolling" style="background-color: #252C3F;"></span>
+                                <h2>Viajes</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                                <button type="button" class="btn btn-outline-info btn-sm btn-block">Más Información</button>
+                            </div>
+
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-3 margin-gral1">
+                            <div class="content-main-1">
+                                <a href="#"></a>
+                                <span class="fas fa-map-marked-alt" style="background-color: #234A59;"></span>
+                                <h2>Lugares</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                                <button type="button" class="btn btn-outline-info btn-sm btn-block">Más Información</button>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-3 margin-gral1">
+                            <div class="content-main-1">
+                                <a href="#"></a>
+                                <span class="fas fa-hotel" style="background-color: #648C67;"></span>
+                                <h2>Hoteles</h2>
+                                <p>
+                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                                <button type="button" class="btn btn-outline-info btn-sm btn-block">Más Información</button>
+                            </div>
+
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-3 margin-gral1">
+                            <div class="content-main-1">
+                                <a href="#"></a>
+                                <span class="far fa-image" style="background-color: #B5BE6B;"></span>
+                                <h2>Paisajes</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                                <button type="button" class="btn btn-outline-info btn-sm btn-block">Más Información</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-------------Main Content 2-------------->
+                <div class="container margin-gral1">
                     <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-6 main-content-2" id="text">
-                            <h3>Testimonios</h3>
+                        <div class="col-sm-12 col md-6 col-lg-7 main-content-2">
+                            <h3>Recomendaciones:</h3>
+                            <div class="wraped-scroll">
+                                <div class="media">
+                                    <img src="assets/img/huancayo.png" class="mr-3" alt="...">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Media heading</h5>
+                                        <p>Will you do the same for me? It's time to face the music I'm no longer your muse. Heard it's beautiful, be the judge and my girls gonna take a vote. I can feel a phoenix inside of me. Heaven is jealous of our love, angels are crying from up above. Yeah, you take me to utopia.</p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <img src="assets/img/laguna.jpg" class="mr-3" alt="...">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Media heading</h5>
+                                        <p>Will you do the same for me? It's time to face the music I'm no longer your muse. Heard it's beautiful, be the judge and my girls gonna take a vote. I can feel a phoenix inside of me. Heaven is jealous of our love, angels are crying from up above. Yeah, you take me to utopia.</p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <img src="assets/img/yauyos.png" class="mr-3" alt="...">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Media heading</h5>
+                                        <p>Will you do the same for me? It's time to face the music I'm no longer your muse. Heard it's beautiful, be the judge and my girls gonna take a vote. I can feel a phoenix inside of me. Heaven is jealous of our love, angels are crying from up above. Yeah, you take me to utopia.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col md-6 col-lg-5 main-content-2">
+                            <h3>Comentarios:</h3>
                             <div class="wraped-scroll">
                                 <div class="content-comment">
                                     <div class="Muigrig-rood">
@@ -108,7 +242,6 @@
                                                     <h6 class="js01-a-2C  text-bottom"> Jorge Alonso <small> 11 de enero</small></h6>
                                                 </div>
                                             </li>
-                
                                             <li class="js01-a">
                                                 <div class="js01-a-1">
                                                     <i class="fas fa-user"></i>
@@ -134,7 +267,6 @@
                                                     <h6 class="js01-a-2C  text-bottom"> Jorge Alonso <small> 11 de enero</small></h6>
                                                 </div>
                                             </li>
-                
                                             <li class="js01-a">
                                                 <div class="js01-a-1">
                                                     <i class="fas fa-user"></i>
@@ -164,26 +296,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6 main-content-2" id="text">
-                            <h3>Tu experiencia es Importante</h3>
-                            <form action="tuexperiencia" method="POST" action="#">
-                                <div class="coment">
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Escribe tu Experiencia"></textarea>
-                                </div>
-                                <div class="text-center">
-                                    <button id="enviar" type="submit" class="btn btn-warning">Enviar</button>
-                                </div>
-                            </form>
-                                <h4>Escribe tu Sugerencia ㋡</h4>
-                                <form action="tuexperiencia" method="POST" action="#">
-                                <div class="sug">
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Escribe tu Sugerencia"></textarea>                    
-                                </div>
-                                <div class="text-center">
-                                    <button id="env" type="submit" class="btn btn-warning">Enviar</button>
-                                </div>
-                            </form>
                         </div>
                     </div>
                 </div>
