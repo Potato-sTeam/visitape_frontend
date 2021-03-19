@@ -167,21 +167,21 @@
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 main-content-2" id="text">
                             <h3>Tu experiencia es Importante</h3>
-                            <form action="tuexperiencia" method="POST">
+                            <form action="tuexperiencia" method="POST" action="#">
                                 <div class="coment">
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Escribe tu Experiencia"></textarea>
                                 </div>
                                 <div class="text-center">
-                                    <button id="enviar" type="button" class="btn btn-warning">Enviar</button>
+                                    <button id="enviar" type="submit" class="btn btn-warning">Enviar</button>
                                 </div>
                             </form>
                                 <h4>Escribe tu Sugerencia ㋡</h4>
-                                <form action="tuexperiencia" method="POST">
+                                <form action="tuexperiencia" method="POST" action="#">
                                 <div class="sug">
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Escribe tu Sugerencia"></textarea>                    
                                 </div>
                                 <div class="text-center">
-                                    <button id="env" type="button" class="btn btn-warning">Enviar</button>
+                                    <button id="env" type="submit" class="btn btn-warning">Enviar</button>
                                 </div>
                             </form>
                         </div>
@@ -194,7 +194,44 @@
                 <div class="row">
                     <div class="col-sm-12 col-dm-6 col-lg-3 margin-gral1 margin-gral2 wrap-colum">
                         <h5>¿Deseas Unirte?</h5>
-                        <button type="button" class="btn btn-md" style="background-color: orange; color:#fff; font-weight: 700;">Ünete a Nosotros</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Haz Click aqui!!</button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title text-dark" id="exampleModalLabel">Unete a Nosotros</h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form method="POST" action="#">
+                                            <div class="form-group">
+                                                <label for="recipient-name" class="col-form-label text-info">Nombres:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="recipient-name" class="col-form-label text-info">Apellidos:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="recipient-name" class="col-form-label text-info">Celular:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="message-text" class="col-form-label text-info">Mensaje:</label>
+                                                <textarea class="form-control" id="message-text"></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-outline-info btn-block" data-dismiss="modal">Enviar</button>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
+                                        <button type="button" class="btn btn-info">Enviar Mensaje</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-sm-12 col-dm-6 col-lg-3 margin-gral1 margin-gral2 wrap-colum">
                         <h5>Contáctanos</h5>
@@ -206,10 +243,10 @@
                     </div>
                     <div class="col-sm-12 col-dm-6 col-lg-3 margin-gral1 margin-gral2 wrap-colum">
                         <h5>Suscríbete</h5>
-                        <form class=" form-footer">
+                        <form class=" form-footer" method="POST" action="#">
                             <div class="input-group">
                                 <input type="search" id="form1" class="form-control" placeholder="Escribe tu email"/>
-                                <button type="button" class="btn btn-primary">
+                                <button type="submit" class="btn btn-primary">
                                <i class="far fa-paper-plane"></i>
                                 </button>
                             </div>

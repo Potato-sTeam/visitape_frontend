@@ -192,9 +192,44 @@
                                         imprenta) desconocido usó una galería de textos y los mezcló
                                         de tal manera que logró hacer un libro de textos especimen.
                                     </p>
-                                    <button class="btb btn-block btn-lg btn-info">
-                                        Asociarse
-                                    </button>
+                                    <button type="button" class="btb btn-block btn-lg btn-info" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Asociarse</button>
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h3 class="modal-title text-dark" id="exampleModalLabel">Unete a Nosotros</h3>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form method="POST" action="#">
+                                                        <div class="form-group">
+                                                            <label for="recipient-name" class="col-form-label text-info">Nombres:</label>
+                                                            <input type="text" class="form-control" id="recipient-name">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="recipient-name" class="col-form-label text-info">Apellidos:</label>
+                                                            <input type="text" class="form-control" id="recipient-name">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="recipient-name" class="col-form-label text-info">Celular:</label>
+                                                            <input type="text" class="form-control" id="recipient-name">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="message-text" class="col-form-label text-info">Mensaje:</label>
+                                                            <textarea class="form-control" id="message-text"></textarea>
+                                                        </div>
+                                                        <button type="submit" class="btn btn-outline-info btn-block" data-dismiss="modal">Enviar</button>
+                                                    </form>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
+                                                    <button type="button" class="btn btn-info">Enviar Mensaje</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -206,9 +241,44 @@
                     <div class="row">
                         <div class="col-sm-12 col-dm-6 col-lg-3 margin-gral1 margin-gral2 wrap-colum" >
                             <h5>¿Deseas Unirte?</h5>
-                            <button type="button" class="btn btn-md" style="background-color: orange; color: #fff; font-weight: 700">
-                                Ünete a Nosotros
-                            </button>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Haz Click aqui!!</button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title text-dark" id="exampleModalLabel">Unete a Nosotros</h3>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form method="POST" action="#">
+                                                <div class="form-group">
+                                                    <label for="recipient-name" class="col-form-label text-info">Nombres:</label>
+                                                    <input type="text" class="form-control" id="recipient-name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="recipient-name" class="col-form-label text-info">Apellidos:</label>
+                                                    <input type="text" class="form-control" id="recipient-name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="recipient-name" class="col-form-label text-info">Celular:</label>
+                                                    <input type="text" class="form-control" id="recipient-name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="message-text" class="col-form-label text-info">Mensaje:</label>
+                                                    <textarea class="form-control" id="message-text"></textarea>
+                                                </div>
+                                                <button type="submit" class="btn btn-outline-info btn-block" data-dismiss="modal">Enviar</button>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-info">Enviar Mensaje</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-sm-12 col-dm-6 col-lg-3 margin-gral1 margin-gral2 wrap-colum">
                             <h5>Contáctanos</h5>
@@ -220,7 +290,7 @@
                         </div>
                         <div class="col-sm-12 col-dm-6 col-lg-3 margin-gral1 margin-gral2 wrap-colum">
                             <h5>Suscríbete</h5>
-                            <form class="form-footer">
+                            <form class="form-footer" method="POST" action="#">
                                 <div class="input-group">
                                     <input
                                         type="search"
@@ -228,7 +298,7 @@
                                         class="form-control"
                                         placeholder="Escribe tu email"
                                     />
-                                    <button type="button" class="btn btn-primary">
+                                    <button type="submit" class="btn btn-primary">
                                         <i class="far fa-paper-plane"></i>
                                     </button>
                                 </div>
