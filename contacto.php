@@ -123,11 +123,7 @@
                                         ¿Quieres se Nuestro Socio?<small> Mira este video</small>
                                     </h4>
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe
-                                            class="embed-responsive-item"
-                                            src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
-                                            allowfullscreen
-                                        ></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/RgetXiJtfZ0?autoplay=1&mute=1&start=8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                     <p class="text-left">
                                         Lorem Ipsum es simplemente el texto de relleno de las

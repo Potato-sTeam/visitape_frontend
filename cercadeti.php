@@ -40,20 +40,22 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid" style="background-color: #eee;">
-                <div class="row">
-                    <div class="col">
+            <div class="container-fluid wrap_padding" style="background-color: #eee;">
+                <div class="container" style="background-color: #eee;" >
+                    <div class="row">
+                        <div class="col">
 
-                        <div class="z-depth-1-half map-container" style="height: 500px">
-                            <form method="POST" action="#">
-                                <input
-                                id="pac-input"
-                                class="controls"
-                                type="text"
-                                placeholder="Buscar"
-                            />
-                            </form>
-                            <div id="map"></div>
+                            <div class="z-depth-1-half map-container" style="height: 500px">
+                                <form method="POST" action="#">
+                                    <input
+                                    id="pac-input"
+                                    class="controls"
+                                    type="text"
+                                    placeholder="Buscar"
+                                />
+                                </form>
+                                <div id="map"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
