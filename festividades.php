@@ -5,12 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VisitaPe</title>
-    <!--Posicionamiento Seo-->
-    <meta name="description" content="Turismo, Gastronomía, lugares, Viajes, Eventos, Fiestas Patronales,
-    Cultura, Paisajes, Mochileros, Hoteles"/>
-    <meta name="robots" content="index, follow, noimageindex, noarchive"/>
-    <meta name="googlebot" content="index, follow, noimageindex, noarchive, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
-    <!--Posicionamiento Seo-->
+    <?php include ("codes/meta.php"); ?>
     <link rel="icon" type="image/png" href="./assets/img/logo.ico">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -28,38 +23,7 @@
         <i class="fa fa-arrow-up"></i>
     </a>
     <div class="dashboard-content">
-        <header class="menu" id="fixed">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light bg-transparent" >
-                    <a class="navbar-brand" href="index.php">
-                        <img src="./assets/img/logo-visita.png" alt="" height="50">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse nav-principal" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto text-md-left text-left nav-second">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="cercadeti.php"><i class="fas fa-street-view"></i> Cerca de ti</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="festividades.php"><i class="fas fa-hat-cowboy"></i> Festividades</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="tuexperiencia.php"><i class="fas fa-hiking"></i> Tu Experiencia</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contacto.php"><i class="fas fa-id-badge"></i> Contacto</a>
-                            </li>
-                            <!--<li class="nav-item">
-                              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>-->
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
+    <?php include ("codes/header.php"); ?>
         <!-------------Maintop-------------->
         <section class="content-wrap">
             <div class="container-fluid breadcrumb-ini">
@@ -87,45 +51,7 @@
                 </div>
             </div>
         </section>
-        <footer id="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-dm-6 col-lg-3 margin-gral1 margin-gral2 wrap-colum">
-                        <h5>¿Deseas Unirte?</h5>
-                        <button type="button" class="btn btn-md" style="background-color: orange; color:#fff; font-weight: 700;">Ünete a Nosotros</button>
-                    </div>
-                    <div class="col-sm-12 col-dm-6 col-lg-3 margin-gral1 margin-gral2 wrap-colum">
-                        <h5>Contáctanos</h5>
-                        <ul>
-                            <li><i class="fas fa-paper-plane"></i> soporte@visita.pe</li>
-                            <li><i class="far fa-paper-plane"></i> ventas@visita.pe</li>
-                            <li><i class="fab fa-whatsapp"></i> +51 999 456 666</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-12 col-dm-6 col-lg-3 margin-gral1 margin-gral2 wrap-colum">
-                        <h5>Suscríbete</h5>
-                        <form class=" form-footer">
-                            <div class="input-group">
-                                <input type="search" id="form1" class="form-control" placeholder="Escribe tu email"/>
-                                <button type="button" class="btn btn-primary">
-                               <i class="far fa-paper-plane"></i>
-                                </button>
-                            </div>
-                            <p style="font-weight: 700; font-size: 11px; font-style: oblique;">NOTA: Para enviarte muchas novedades y saber que eres nuestro amigo</p>
-                        </form>
-                    </div>
-                    <div class="col-sm-12 col-dm-6 col-lg-3 margin-gral1 margin-gral2 wrap-colum">
-                        <h5>Nuestras Redes Sociales</h5>
-                        <ul>
-                            <li class="Fluid-Social"><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                            <li class="Fluid-Social"><a href=""><i class="fab fa-instagram"></i></a></li>
-                            <li class="Fluid-Social"><a href=""><i class="fab fa-youtube"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <p class="text-center copyright-footer">Potato's Team 2021 - Todos los derechos reservados</p>
-        </footer>
+        <?php include ("codes/footer.php"); ?>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -175,7 +101,7 @@
                 document.getElementById('script-warning').style.display = 'block'
               },
             },
-            eventColor: '#072d5a',
+            eventColor: '#fff',
             eventContent: function(arg) {
                 let arrayOfDomNodes = []
                 // title event
