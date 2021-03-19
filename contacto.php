@@ -165,12 +165,11 @@
                                                             <label for="message-text" class="col-form-label text-info">Mensaje:</label>
                                                             <textarea class="form-control" id="message-text"></textarea>
                                                         </div>
-                                                        <button type="submit" class="btn btn-outline-info btn-block" data-dismiss="modal">Enviar</button>
+                                                        <button type="submit" class="btn btn-outline-info btn-block" data-dismiss="modal">Enviar Mensaje</button>
                                                     </form>
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
-                                                    <button type="button" class="btn btn-info">Enviar Mensaje</button>
                                                 </div>
                                             </div>
                                         </div>
