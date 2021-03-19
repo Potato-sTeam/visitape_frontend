@@ -11,16 +11,16 @@
             <div class="collapse navbar-collapse nav-principal" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto text-md-left text-left nav-second">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="cercadeti.php"><i class="fas fa-street-view"></i> Cerca de ti</a>
+                        <a class="nav-link <?php echo (basename($_SERVER['PHP_SELF'])=="cercadeti.php"?"active":"");?>" aria-current="page" href="cercadeti.php"><i class="fas fa-street-view"></i> Cerca de ti</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="festividades.php"><i class="fas fa-hat-cowboy"></i> Festividades</a>
+                        <a class="nav-link <?php echo (basename($_SERVER['PHP_SELF'])=="festividades.php"?"active":"");?>" href="festividades.php"><i class="fas fa-hat-cowboy"></i> Festividades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="tuexperiencia.php"><i class="fas fa-hiking"></i> Tu Experiencia</a>
+                        <a class="nav-link <?php echo (basename($_SERVER['PHP_SELF'])=="tuexperiencia.php"?"active":"");?>" href="tuexperiencia.php"><i class="fas fa-hiking"></i> Tu Experiencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contacto.php"><i class="fas fa-id-badge"></i> Contacto</a>
+                        <a class="nav-link <?php echo (basename($_SERVER['PHP_SELF'])=="contacto.php"?"active":"");?>" href="contacto.php"><i class="fas fa-id-badge"></i> Contacto</a>
                     </li>
                     <!--<li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>

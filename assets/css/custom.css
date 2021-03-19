@@ -51,7 +51,7 @@ header, footer{
     color:#fff;
 }
 .active{
-    color: orange;
+    color: orange !important;
 }
 .breadcrumb-ini{
     background-image: url(../img/background-top.jpg);
