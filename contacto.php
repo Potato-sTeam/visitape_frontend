@@ -39,7 +39,7 @@
                         <div class="col-md-12">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-center">
-                                    <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                                    <li class="breadcrumb-item"><a href="index.php">Inicio</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">
                                         Contáctanos
                                     </li>
