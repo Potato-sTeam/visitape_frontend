@@ -81,7 +81,7 @@
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/img/hyo-1.png" class="d-block w-100" alt="Huancayo">
+                                    <img src="assets/img/huancayo.png" class="d-block w-100" alt="Huancayo">
                                     <div class="Description">
                                         <a href="#">
                                             <strong>1</strong>  Cascadas de Yauyos
@@ -93,7 +93,7 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/hyo-2.png" class="d-block w-100" alt="Huancayo">
+                                    <img src="assets/img/huancayo.png" class="d-block w-100" alt="Huancayo">
                                     <div class="Description">
                                         <a href="#">
                                             <strong>2</strong>  Laguna de Yauyos
@@ -105,7 +105,7 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/hyo-3.png" class="d-block w-100" alt="...">
+                                    <img src="assets/img/huancayo.png" class="d-block w-100" alt="...">
                                     <div class="Description">
                                         <a href="#">
                                             <strong>3</strong>  Parque Constitución
