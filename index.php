@@ -43,43 +43,8 @@
                     <div class="col-lg-6">
                     <!-------------Slider-------------->
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="assets/img/huancayo.png" class="d-block w-100" alt="Huancayo">
-                                    <div class="Description">
-                                        <a href="#">
-                                            <strong>1</strong>  Cascadas de Yauyos
-                                        </a>
-                                        <p>
-                                            text of the printing and typesetting industry. Lorem Ipsum
-                                            text of the printing and typesetting industry. Lorem Ipsum
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="assets/img/huancayo.png" class="d-block w-100" alt="Huancayo">
-                                    <div class="Description">
-                                        <a href="#">
-                                            <strong>2</strong>  Laguna de Yauyos
-                                        </a>
-                                        <p>
-                                            text of the printing and typesetting industry. Lorem Ipsum
-                                            text of the printing and typesetting industry. Lorem Ipsum
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="assets/img/huancayo.png" class="d-block w-100" alt="...">
-                                    <div class="Description">
-                                        <a href="#">
-                                            <strong>3</strong>  Parque Constitución
-                                        </a>
-                                        <p>
-                                            text of the printing and typesetting industry. Lorem Ipsum
-                                            text of the printing and typesetting industry. Lorem Ipsum
-                                        </p>
-                                    </div>
-                                </div>
+                            <div class="carousel-inner" id="slider">
+                                
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                                 <span class="fa fa-angle-left" aria-hidden="true"></span>
@@ -273,5 +238,6 @@
     <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>-->
     <script>window.jQuery || document.write('<script src="./assets/js/query.slim.min.js"><\/script>')</script><script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script tipe="text/javascript" src="assets/js/apis.js"></script>
 </body>
 </html>
