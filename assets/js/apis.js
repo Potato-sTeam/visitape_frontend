@@ -71,7 +71,7 @@ var padreslider = $("#slider");
     function addChildreco(image, titulo, description) {
       var child = 
       "<div class='media imgreco'>\
-        <img width='200px' src='" + image + "' class='mr-3' alt='...'>\
+        <img width='200px' src='" + image + "' class='mr-3' alt='" + titulo + "'>\
         <div class='media-body'>\
             <h5 class='mt-0'>" + titulo +"</h5>\
             <p> " + description + "</p>\
@@ -112,7 +112,7 @@ var padreslider = $("#slider");
         var child = 
         "<li class='js01-a'>\
             <div class='js01-a-1'>\
-                <img class='rounded-circle' width='70px' height='70px' src='" + imagen + "'>\
+                <img class='rounded-circle' width='70px' height='70px' src='" + imagen + "' alt='" + nombre + "'>\
             </div>\
             <div class='js01-a-2'>\
                 <div class='js01-a-2A name'>\

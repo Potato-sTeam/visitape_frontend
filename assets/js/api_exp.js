@@ -48,7 +48,7 @@ var padrecomen = $("#comentario");
         var child = 
         "<li class='js01-a'>\
             <div class='js01-a-1'>\
-                <img class='rounded-circle' width='70px' height='70px' src='" + imagen + "'>\
+                <img class='rounded-circle' width='70px' height='70px' src='" + imagen + "' alt='" + nombre + "'>\
             </div>\
             <div class='js01-a-2'>\
                 <div class='js01-a-2A name'>\
