@@ -341,7 +341,7 @@ header, footer{
     margin-left: -14px;
     border-radius: 50%;
     box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(53, 52, 52, 0.4);
-    background-color: orange;
+    /*background-color: orange;*/
 }
 .Muigrig-rood .js01 .js01-a .js01-a-2{
     color: rgba(0, 0, 0, 0.87);

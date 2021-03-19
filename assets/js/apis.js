@@ -112,7 +112,7 @@ var padreslider = $("#slider");
         var child = 
         "<li class='js01-a'>\
             <div class='js01-a-1'>\
-                <img class='rounded-circle' width='80px' height='80px' src='" + imagen + "'>\
+                <img class='rounded-circle' width='70px' height='70px' src='" + imagen + "'>\
             </div>\
             <div class='js01-a-2'>\
                 <div class='js01-a-2A name'>\
