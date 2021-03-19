@@ -18,6 +18,9 @@ body {
     background-attachment: fixed;
     background-color: rgba(43, 57, 65, 0.514);
 }
+.fc-daygrid-event{
+    white-space: normal !important;
+}
 #back_top{
     display: inline-block;
     background-color: #FF9800;
