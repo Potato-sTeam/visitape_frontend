@@ -68,9 +68,9 @@
                                 <span class="fas fa-suitcase-rolling" style="background-color: #252C3F;"></span>
                                 <h2>Viajes</h2>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    No lo pienese más y alista tus maletas. Y viaja hoy mismo!! Aprovecha las ofertas diarias!!!
                                 </p>
-                                <button type="button" class="btn btn-outline-info btn-sm btn-block">Más Información</button>
+                                <!--<button type="button" class="btn btn-outline-info btn-sm btn-block">Más Información</button>-->
                             </div>
 
                         </div>
@@ -80,9 +80,9 @@
                                 <span class="fas fa-map-marked-alt" style="background-color: #234A59;"></span>
                                 <h2>Lugares</h2>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    VisitaPe te ofrece los lugares más divertidos, que están cerda de ti!!!
                                 </p>
-                                <button type="button" class="btn btn-outline-info btn-sm btn-block">Más Información</button>
+                                <!--<button type="button" class="btn btn-outline-info btn-sm btn-block">Más Información</button>-->
                             </div>
                         </div>
                         <div class="col-xs-12 col-md-6 col-lg-3 margin-gral1">
@@ -91,9 +91,9 @@
                                 <span class="fas fa-hotel" style="background-color: #648C67;"></span>
                                 <h2>Hoteles</h2>
                                 <p>
-                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Te damos las valoraciones y mejores precios de hoteles creca tuyo ;)
                                 </p>
-                                <button type="button" class="btn btn-outline-info btn-sm btn-block">Más Información</button>
+                                <!--<button type="button" class="btn btn-outline-info btn-sm btn-block">Más Información</button>-->
                             </div>
 
                         </div>
@@ -103,9 +103,9 @@
                                 <span class="far fa-image" style="background-color: #B5BE6B;"></span>
                                 <h2>Paisajes</h2>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Nos encargamos de llevarte a los paisajes mas bellso. Tú decides!!!
                                 </p>
-                                <button type="button" class="btn btn-outline-info btn-sm btn-block">Más Información</button>
+                                <!--<button type="button" class="btn btn-outline-info btn-sm btn-block">Más Información</button>-->
                             </div>
 
                         </div>
