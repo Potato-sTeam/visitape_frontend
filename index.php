@@ -152,28 +152,8 @@
                     <div class="row">
                         <div class="col-sm-12 col md-6 col-lg-7 main-content-2">
                             <h3>Recomendaciones:</h3>
-                            <div class="wraped-scroll">
-                                <div class="media">
-                                    <img src="assets/img/huancayo.png" class="mr-3" alt="...">
-                                    <div class="media-body">
-                                        <h5 class="mt-0">Media heading</h5>
-                                        <p>Will you do the same for me? It's time to face the music I'm no longer your muse. Heard it's beautiful, be the judge and my girls gonna take a vote. I can feel a phoenix inside of me. Heaven is jealous of our love, angels are crying from up above. Yeah, you take me to utopia.</p>
-                                    </div>
-                                </div>
-                                <div class="media">
-                                    <img src="assets/img/laguna.jpg" class="mr-3" alt="...">
-                                    <div class="media-body">
-                                        <h5 class="mt-0">Media heading</h5>
-                                        <p>Will you do the same for me? It's time to face the music I'm no longer your muse. Heard it's beautiful, be the judge and my girls gonna take a vote. I can feel a phoenix inside of me. Heaven is jealous of our love, angels are crying from up above. Yeah, you take me to utopia.</p>
-                                    </div>
-                                </div>
-                                <div class="media">
-                                    <img src="assets/img/yauyos.png" class="mr-3" alt="...">
-                                    <div class="media-body">
-                                        <h5 class="mt-0">Media heading</h5>
-                                        <p>Will you do the same for me? It's time to face the music I'm no longer your muse. Heard it's beautiful, be the judge and my girls gonna take a vote. I can feel a phoenix inside of me. Heaven is jealous of our love, angels are crying from up above. Yeah, you take me to utopia.</p>
-                                    </div>
-                                </div>
+                            <div class="wraped-scroll" id="recomendaciones">
+                                
                             </div>
                         </div>
                         <div class="col-sm-12 col md-6 col-lg-5 main-content-2">
@@ -181,82 +161,8 @@
                             <div class="wraped-scroll">
                                 <div class="content-comment">
                                     <div class="Muigrig-rood">
-                                        <ul class="js01">
-                                            <li class="js01-a">
-                                                <div class="js01-a-1">
-                                                    <i class="fas fa-user"></i>
-                                                </div>
-                                                <div class="js01-a-2">
-                                                    <div class="js01-a-2A name">
-                                                        <div class="js01-a-2Aa">
-                                                            NOMBRE
-                                                        </div>
-                                                        <div class="Star-rating">
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star"></span>
-                                                            <span class="fas fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="js01-a-2B text">
-                                                        <p>
-                                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                                        </p>
-                                                    </div>
-                                                    <h6 class="js01-a-2C  text-bottom"> Jorge Alonso <small> 11 de enero</small></h6>
-                                                </div>
-                                            </li>
-                                            <li class="js01-a">
-                                                <div class="js01-a-1">
-                                                    <i class="fas fa-user"></i>
-                                                </div>
-                                                <div class="js01-a-2">
-                                                    <div class="js01-a-2A name">
-                                                        <div class="js01-a-2Aa">
-                                                            NOMBRE
-                                                        </div>
-                                                        <div class="Star-rating">
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="js01-a-2B text">
-                                                        <p>
-                                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                                        </p>
-                                                    </div>
-                                                    <h6 class="js01-a-2C  text-bottom"> Jorge Alonso <small> 11 de enero</small></h6>
-                                                </div>
-                                            </li>
-                                            <li class="js01-a">
-                                                <div class="js01-a-1">
-                                                    <i class="fas fa-user"></i>
-                                                </div>
-                                                <div class="js01-a-2">
-                                                    <div class="js01-a-2A name">
-                                                        <div class="js01-a-2Aa">
-                                                            NOMBRE
-                                                        </div>
-                                                        <div class="Star-rating">
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="js01-a-2B text">
-                                                        <p>
-                                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                                        </p>
-                                                    </div>
-                                                    <h6 class="js01-a-2C  text-bottom"> Jorge Alonso <small> 11 de enero</small></h6>
-                                                </div>
-                                            </li>
+                                        <ul class="js01" id="comentario">
+                                            
                                         </ul>
                                     </div>
                                 </div>

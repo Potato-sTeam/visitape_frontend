@@ -28,71 +28,7 @@ function get(url) {
     req.send();
   });
 }
-var padreslider = $("#slider");
-  
-  function addChildslider(image, titulo, description, activo) {
-    var child = 
-      "<div class='carousel-item "+ activo+"'>\
-          <img src='" + image + "' class='d-block w-100' alt='" + titulo +"'>\
-          <div class='Description'>\
-              <a href='#'>\
-                " + titulo +"\
-              </a>\
-              <p>\
-                " + description + "\
-              </p>\
-          </div>\
-      </div>";
-	padreslider.append(child);
-  }
-  
-  get("http://api-visita.xpertik.com/slider.php")
-    .then(function(response){
-      var data = JSON.parse(response);
-      var activo = "";
-      for(var i = 0; data["objects"].length > i; i++) {
-        if(i==0){
-          activo="active";
-        }
-        else{
-          activo="vacio";
-        }
-        addChildslider(data["objects"][i]["img"], 
-            data["objects"][i]["titulo"],
-            data["objects"][i]["description"],
-            activo);
-      }
-    }, function(error){
-      alert("Lo sentimos la consulta de datos no se completo.");
-    });
-
-    var padrereco = $("#recomendaciones");
-  
-    function addChildreco(image, titulo, description) {
-      var child = 
-      "<div class='media imgreco'>\
-        <img width='200px' src='" + image + "' class='mr-3' alt='...'>\
-        <div class='media-body'>\
-            <h5 class='mt-0'>" + titulo +"</h5>\
-            <p> " + description + "</p>\
-        </div>\
-      </div>";
-      padrereco.append(child);
-    }
-    
-    get("http://api-visita.xpertik.com/recomendaciones.php")
-      .then(function(response){
-        var data = JSON.parse(response);
-        for(var i = 0; data["objects"].length > i; i++) {
-          addChildreco(data["objects"][i]["img"], 
-              data["objects"][i]["titulo"],
-              data["objects"][i]["description"],);
-        }
-      }, function(error){
-        alert("Lo sentimos la consulta de datos no se completo.");
-      });
-
-      var padrecomen = $("#comentario");
+var padrecomen = $("#comentario");
       
       function generaestrella(estrellas){
         var cadena = "";

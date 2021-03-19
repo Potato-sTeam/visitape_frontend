@@ -82,84 +82,8 @@
                             <div class="wraped-scroll">
                                 <div class="content-comment">
                                     <div class="Muigrig-rood">
-                                        <ul class="js01">
-                                            <li class="js01-a">
-                                                <div class="js01-a-1">
-                                                    <i class="fas fa-user"></i>
-                                                </div>
-                                                <div class="js01-a-2">
-                                                    <div class="js01-a-2A name">
-                                                        <div class="js01-a-2Aa">
-                                                            NOMBRE
-                                                        </div>
-                                                        <div class="Star-rating">
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star"></span>
-                                                            <span class="fas fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="js01-a-2B text">
-                                                        <p>
-                                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                                        </p>
-                                                    </div>
-                                                    <h6 class="js01-a-2C  text-bottom"> Jorge Alonso <small> 11 de enero</small></h6>
-                                                </div>
-                                            </li>
-
-                                            <li class="js01-a">
-                                                <div class="js01-a-1">
-                                                    <i class="fas fa-user"></i>
-                                                </div>
-                                                <div class="js01-a-2">
-                                                    <div class="js01-a-2A name">
-                                                        <div class="js01-a-2Aa">
-                                                            NOMBRE
-                                                        </div>
-                                                        <div class="Star-rating">
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="js01-a-2B text">
-                                                        <p>
-                                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                                        </p>
-                                                    </div>
-                                                    <h6 class="js01-a-2C  text-bottom"> Jorge Alonso <small> 11 de enero</small></h6>
-                                                </div>
-                                            </li>
-
-                                            <li class="js01-a">
-                                                <div class="js01-a-1">
-                                                    <i class="fas fa-user"></i>
-                                                </div>
-                                                <div class="js01-a-2">
-                                                    <div class="js01-a-2A name">
-                                                        <div class="js01-a-2Aa">
-                                                            NOMBRE
-                                                        </div>
-                                                        <div class="Star-rating">
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star star_checked"></span>
-                                                            <span class="fas fa-star"></span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="js01-a-2B text">
-                                                        <p>
-                                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                                        </p>
-                                                    </div>
-                                                    <h6 class="js01-a-2C  text-bottom"> Jorge Alonso <small> 11 de enero</small></h6>
-                                                </div>
-                                            </li>
+                                        <ul class="js01" id="comentario">
+                                            
                                         </ul>
                                     </div>
                                 </div>
@@ -272,5 +196,6 @@
     <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>-->
     <script>window.jQuery || document.write('<script src="./assets/js/query.slim.min.js"><\/script>')</script><script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script tipe="text/javascript" src="assets/js/api_exp.js"></script>
 </body>
 </html>
