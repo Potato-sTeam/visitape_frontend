@@ -42,7 +42,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 col-md-6 col-lg-6 main-content-2" id="text">
-                            <h3>Testimonios</h3>
+                            <h3 class="text-left">Testimonios</h3>
                             <div class="wraped-scroll">
                                 <div class="content-comment">
                                     <div class="Muigrig-rood">
@@ -54,7 +54,7 @@
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 main-content-2" id="text">
-                            <h3>Tu experiencia es Importante</h3>
+                            <h3 class="text-left">Tu experiencia es Importante</h3>
                             <form action="tuexperiencia" method="POST" action="#">
                                 <div class="coment">
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Escribe tu Experiencia"></textarea>
@@ -63,7 +63,7 @@
                                     <button id="enviar" type="submit" class="btn btn-warning">Enviar</button>
                                 </div>
                             </form>
-                                <h4>Escribe tu Sugerencia ㋡</h4>
+                                <h4 class="text-left">Escribe tu Sugerencia ㋡</h4>
                                 <form action="tuexperiencia" method="POST" action="#">
                                 <div class="sug">
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Escribe tu Sugerencia"></textarea>

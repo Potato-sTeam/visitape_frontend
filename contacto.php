@@ -52,70 +52,71 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6">
-                                <h4 class="border-left">
-                                    ¿Quieres más información?<small> Escríbenos</small>
-                                </h4>
-                                <form>
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">Nombres: </label>
-                                        <input
-                                            type="text"
-                                            class="form-control"
-                                            id="exampleInputEmail1"
-                                            aria-describedby="emailHelp"
-                                        />
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">Apellidos: </label>
-                                        <input
-                                            type="text"
-                                            class="form-control"
-                                            id="exampleInputEmail1"
-                                            aria-describedby="emailHelp"
-                                        />
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">Email: </label>
-                                        <input
-                                            type="email"
-                                            class="form-control"
-                                            id="exampleInputEmail1"
-                                            aria-describedby="emailHelp"
-                                        />
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">Teléfono: </label>
-                                        <input
-                                            type="number"
-                                            class="form-control"
-                                            id="exampleInputEmail1"
-                                            aria-describedby="emailHelp"
-                                        />
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">Lugar: </label>
-                                        <input
-                                            type="text"
-                                            class="form-control"
-                                            id="exampleInputEmail1"
-                                            aria-describedby="emailHelp"
-                                        />
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">Mensaje *: </label>
-                                        <textarea
-                                            class="form-control"
-                                            id="exampleFormControlTextarea1"
-                                            rows="3"
-                                        ></textarea>
-                                        <small id="emailHelp" class="form-text text-muted"
-                                            >Por favor escribe tu mensaje.</small
-                                        >
-                                    </div>
-                                    <button type="submit" class="btn btn-outline-info btn-block">
-                                        Enviar
-                                    </button>
-                                </form>
+                                <div class="jumbotron bg-white">
+                                    <h4 class="display-4">Escríbenos</small>!</h4>
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Nombres: </label>
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                id="exampleInputEmail1"
+                                                aria-describedby="emailHelp"
+                                            />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Apellidos: </label>
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                id="exampleInputEmail1"
+                                                aria-describedby="emailHelp"
+                                            />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Email: </label>
+                                            <input
+                                                type="email"
+                                                class="form-control"
+                                                id="exampleInputEmail1"
+                                                aria-describedby="emailHelp"
+                                            />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Teléfono: </label>
+                                            <input
+                                                type="number"
+                                                class="form-control"
+                                                id="exampleInputEmail1"
+                                                aria-describedby="emailHelp"
+                                            />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Lugar: </label>
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                id="exampleInputEmail1"
+                                                aria-describedby="emailHelp"
+                                            />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Mensaje *: </label>
+                                            <textarea
+                                                class="form-control"
+                                                id="exampleFormControlTextarea1"
+                                                rows="3"
+                                            ></textarea>
+                                            <small id="emailHelp" class="form-text text-muted"
+                                                >Por favor escribe tu mensaje.</small
+                                            >
+                                        </div>
+                                        <button type="submit" class="btn btn-outline-info btn-block">
+                                            Enviar
+                                        </button>
+                                    </form>
+                                </div>
+                                
                             </div>
                             <div class="col-lg-6">
                                 <div class="content-main-1">
