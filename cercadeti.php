@@ -48,7 +48,7 @@
                                     <li class="nav-item" role="presentation">
                                         <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">BUSCAR</a>
                                     </li>
-                                    <li class="nav-item" role="presentation">
+                                    <li class="nav-item" role="presentation" >
                                         <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">LUGARES</a>
                                     </li>
                                 </ul>
@@ -68,7 +68,8 @@
                                         </div>
                                         <button type="button" id="changetabbutton" class="btn btn-outline-success btn-block">Seleccionar Ubicación</button>
                                     </div>
-                                    <div class="tab-pane fade tab-padd" id="profile" role="tabpanel" aria-labelledby="profile-tab">                                       
+                                    <div class="tab-pane fade tab-padd" id="profile" role="tabpanel" aria-labelledby="profile-tab">  
+                                                                            
                                         <div class="row marg-bott">
                                             <div class="col-sm-12 col md-6 col-lg-5 px-md-5">
                                                 <img src="https://portal.andina.pe/EDPfotografia3/Thumbnail/2020/11/13/000726268W.jpg" class="img-fluid" alt="Huancayo">
@@ -78,8 +79,12 @@
                                                 <p class="text-dark">
                                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                                                 </p>
+                                                <p class="lead">
+                                                    <a class="btn btn-outline-info btn-lg btn-block" href="#" role="button">Más información</a>
+                                                </p>
                                             </div>
                                         </div>
+                                        <hr class="my-4">
                                         <div class="row marg-bott">
                                             <div class="col-sm-12 col md-6 col-lg-5 px-md-5">
                                                 <img src="https://elcomercio.pe/resizer/6WUQZFcpVjeMviAnUu3OQGWYqK8=/980x0/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/RD7WTBABL5DS5FMDGFFYK7UNI4.jpg" class="img-fluid" alt="Satipo">
@@ -89,8 +94,12 @@
                                                 <p class="text-dark">
                                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                                                 </p>
+                                                <p class="lead">
+                                                    <a class="btn btn-outline-info btn-lg btn-block" href="#" role="button">Más información</a>
+                                                </p>
                                             </div>
                                         </div>
+                                        <hr class="my-4">
                                         <div class="row marg-bott">
                                             <div class="col-sm-12 col md-6 col-lg-5 px-md-5">
                                                 <img src="https://www.chanchamayoinnhotel.com/medias/slide/big/5/hotel-01.jpg" class="img-fluid" alt="Satipo">
@@ -100,8 +109,12 @@
                                                 <p class="text-dark">
                                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                                                 </p>
+                                                <p class="lead">
+                                                    <a class="btn btn-outline-info btn-lg btn-block" href="#" role="button">Más información</a>
+                                                </p>
                                             </div>
                                         </div>
+                                        <hr class="my-4">
                                         <div class="row marg-bott">
                                             <div class="col-sm-12 col md-6 col-lg-5 px-md-5">
                                                 <img src="https://i.ytimg.com/vi/YWGt0aaHsyw/maxresdefault.jpg" class="img-fluid" alt="Satipo">
@@ -111,8 +124,12 @@
                                                 <p class="text-dark"> 
                                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                                                 </p>
+                                                <p class="lead">
+                                                    <a class="btn btn-outline-info btn-lg btn-block" href="#" role="button">Más información</a>
+                                                </p>
                                             </div>
                                         </div>
+                                        
                                     </div>
                                 </div>
                                 
