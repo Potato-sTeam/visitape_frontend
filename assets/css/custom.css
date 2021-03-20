@@ -18,6 +18,12 @@ body {
     background-attachment: fixed;
     background-color: rgba(43, 57, 65, 0.514);
 }
+.tab-padd{
+    padding: 30px;
+}
+.marg-bott{
+    margin-bottom: 20px;
+}
 .fc-daygrid-event{
     white-space: normal !important;
 }
@@ -644,7 +650,7 @@ header, footer{
     font-size: 15px;
     font-weight: 300;
     margin-left: 12px;
-    padding: 0 11px 0 13px;
+    padding: 0 20px 0 22px;
     text-overflow: ellipsis;
     width: 400px;
 }

@@ -112,7 +112,12 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
   );
   infoWindow.open(map);
 }
-$('#changetabbutton').click(function(e){
-    e.preventDefault();
-    $('#mytabs a[href="#second"]').tab('show');
-})
+$(function(){
+
+  $('#changetabbutton').click(function(e){
+      e.preventDefault();
+
+      $('#myTab a[href="#profile"]').tab('show');
+  });
+
+});
